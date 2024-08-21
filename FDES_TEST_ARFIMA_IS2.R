@@ -157,6 +157,7 @@ for (i in 1:s){
 }
   
 Mask <- (abs(WhitHats[,1])<0.999)&(abs(WhitHats[,2])<0.49999)&(!is.na(CDFs[,250]))
+# Get rid of the estimates that did not converge
 
 
 #=============================== Plot the results =============================#

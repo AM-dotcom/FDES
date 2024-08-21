@@ -1,4 +1,6 @@
 
+#============================== Whittle's functions ============================
+
 
 PSDARMA1d1 <- function(x,parms){
   CosV <- 2*cos(parms$freq)
